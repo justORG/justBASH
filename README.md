@@ -18,6 +18,6 @@ cmd /v /c "set F=justSETUP.bat&set "B=%CD%\!F!"&set U=ttps://github.com/justORG/
 
   | Feature
 -------- | --------------------------------------------------------------------------------
-<b>&#10003;</b> | <details><summary><a href="https://github.com/justORG/justBASH#feature1" name="feature1">Feature 1 name</a></summary><p>Feature 1 description</p></details>
-<b>&#10003;</b> | <details><summary><a href="https://github.com/justORG/justBASH#feature2" name="feature2">Feature 2 name</a></summary><p>Feature 2 description</p></details>
-  | <details><summary><a href="https://github.com/justORG/justBASH#feature3" name="feature3">Feature 3 name</a></summary><p>Feature 3 description</p></details>
+<b>&#10003;</b> | <details><summary><b><i>Feature 1 name</i></b></summary><p>Feature 1 description</p></details>
+<b>&#10003;</b> | <details><summary><b><i>Feature 2 name</i></b></summary><p>Feature 2 description</p></details>
+  | <details><summary><i>Feature 3 name</i></summary><p>Feature 3 description</p></details>
