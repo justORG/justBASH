@@ -2,12 +2,6 @@
 
 The automatic setup of justBASH wasn't possible.
 
-Please manually download and run the right setup script for your system.
+Please download and run the following script to setup justBASH manually:
 
-## UNIX / OSX:
-
-[justSETUP.sh](https://github.com/justORG/justBASH/raw/master/justSETUP.sh)
-
-## Windows:
-
-[justSETUP.bat](https://github.com/justORG/justBASH/raw/master/justSETUP.bat)
+[just.cmd](https://github.com/justORG/justBASH/raw/master/just.cmd)
