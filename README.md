@@ -11,17 +11,17 @@ The setup of justBASH currently deppends on either Perl or wget being available 
 Run those commands on your system's terminal / command prompt:
 
 ```sh
-echo Failed to setup justBASH>no.just&&echo See: https://github.com/justORG/justBASH/blob/master/ERROR.md>>no.just
-:;S=just.cmd;U=https://github.com/justORG/justBASH/raw/master/$S;h(){ type $1 >/dev/null 2>&1||return 1;};h curl&&curl -O "$U"||h wget&&wget "$U"||h lynx&&lynx -source "$U">$S;clear;[ -f $S ]&&chmod +x $S&&./$S||cat no.just;rm no.just;unset S U h;<<:
-cmd /v /c "set "B=%CD%\just.cmd"&set U=ttps://github.com/justORG/justBASH/raw/master/just.cmd&set "IF=for ^%X in ("&set "DO=.exe) do (set OK=^%~$PATH:X)^&if defined OK "&cmd /c "(!IF!bitsadmin!DO!(bitsadmin /transfer J h!U! "!B!" >nul)else (!IF!powershell!DO!(powershell -Command "(New-Object Net.WebClient).DownloadFile('h'+'!U!','!B!')")))^&cls^&(if exist !B! (!B!)else (more no.just))^&del no.just""&^
+echo Failed to setup justBASH>no.just&&echo See: https://github.com/justPLACE/justBASH/blob/master/ERROR.md>>no.just
+:;S=just.cmd;U=https://raw.githubusercontent.com/justPLACE/justBASH/master/$S;h(){ type $1 >/dev/null 2>&1||return 1;};h curl&&curl -O "$U"||(h wget&&wget "$U")||(h lynx&&lynx -source "$U">$S);clear;[ -f $S ]&&chmod +x $S&&./$S||cat no.just;rm no.just;unset S U h;<<:
+cmd /v /c "set "B=%CD%\just.cmd"&set U=ttps://raw.githubusercontent.com/justPLACE/justBASH/master/just.cmd&set "IF=for ^%X in ("&set "DO=.exe) do (set OK=^%~$PATH:X)^&if defined OK "&cmd /c "(!IF!bitsadmin!DO!(bitsadmin /transfer J h!U! "!B!" ^>nul)else (!IF!powershell!DO!(powershell -Command "(New-Object Net.WebClient).DownloadFile('h'+'!U!','!B!')")))^&cls^&(if exist !B! (!B!)else (more no.just))^&del no.just""&^
 :
-
+ 
 ```
 
 ### Manual setup
 
 Download this file to your project's directory and run it:
-[just.cmd](https://github.com/justORG/justBASH/raw/master/just.cmd)
+[just.cmd](https://github.com/justPLACE/justBASH/raw/master/just.cmd)
 
 ## Commands
 
