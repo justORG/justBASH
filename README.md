@@ -25,7 +25,7 @@ Download this file to your project's directory and run it:
 
 ## Commands
 
-![Windows](https://png.icons8.com/windows-xp/color/24) | ![macOS](https://png.icons8.com/apple-mac/color/24) | ![Ubuntu](https://png.icons8.com/ubuntu/color/24) | Command<br />(click to expand)
+![Windows](https://png.icons8.com/windows-xp/color/24) | ![macOS](https://png.icons8.com/apple-logo/color/24) | ![Ubuntu](https://png.icons8.com/ubuntu/color/24) | Command<br />(click to expand)
 -- | -- | -- | --
   |  |  | <details><summary><b>Run bash</b></summary><p><br />Syntax<br />&nbsp;&nbsp;&nbsp;&nbsp;`just bash [arguments]`<br /><br />Runs bash on any platform. If any arguments are specified, those arguments are passed on to bash.<br /><br />Examples</br>&nbsp;&nbsp;&nbsp;&nbsp;`just bash script.sh`</p></details>
   |  |  | <details><summary><b>Install package/script</b></summary><p><br />Syntax<br />&nbsp;&nbsp;&nbsp;&nbsp;`just install item1 [item2 ...]`<br /><br />Installs the specified item(s). Each item can be the name of a bash package (to be installed using the available package manager), or the URL to an installation script.<br />If a package is to be installed and no package manager is found, the most adequate package manager for the system is installed and used.<br /><br />Examples</br>&nbsp;&nbsp;&nbsp;&nbsp;`just install wget`</br>&nbsp;&nbsp;&nbsp;&nbsp;`just install http://www.domain.com/script.sh`</p></details>
